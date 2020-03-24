@@ -26,13 +26,7 @@
 	  <filter-name>characterEncodingFilter</filter-name>
 	  <url-pattern>*.html</url-pattern>
 	</filter-mapping>
-
-  
-	<servlet>
-         <servlet-name>LoadConfigServlet</servlet-name>
-         <servlet-class>com.venus.finance.servlet.LoadConfigServlet</servlet-class>
-         <load-on-startup>2</load-on-startup>
-	</servlet>
+	
 	<servlet>
         <servlet-name>spring</servlet-name>
         <servlet-class>
